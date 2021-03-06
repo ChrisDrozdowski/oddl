@@ -85,7 +85,7 @@ class GUI(tk.Tk):
         self._running_thread = False
 
         # Window building
-        self.title('OpeNDap Downloader')
+        self.title('OpeNDAP Downloader')
         self.bind('<Alt-F4>', self.on_exit)
         self.bind('<Control-o>', self.on_open_settings)
         self.bind('<Control-s>', self.on_save_settings)
